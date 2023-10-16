@@ -1,5 +1,8 @@
 <?php
 
+  error_reporting(E_ALL);
+  ini_set('display_errors', 1);
+
   $receiving_email_address = 'nabhannisham18@gmail.com';
 
   if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
